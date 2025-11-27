@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photo Music Gallery</title>
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header>
+    <h1> Photo Memories </h1>
+    <p>Captured seconds… eternal emotions</p>
+  </header>
+
+  <main class="gallery" id="gallery">
+
+    <!-- Row 1: split-groups -->
+    <div class="row split-groups" data-group="left" data-audio="audio/mathu1.mp3">
+      <div class="group left-group">
+        <figure class="item medium" data-audio="">
+          <img src="images/saree1.jpg" alt="Saree photo 1" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Soft beauty"</div>
+          </figcaption>
+        </figure>
+        <figure class="item medium" data-audio="">
+          <img src="images/saree2.jpg" alt="Saree photo 2" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Pretty forever"</div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="group right-group" data-audio="">
+        <figure class="item medium" data-audio="">
+          <img src="images/saree3.jpg" alt="Saree photo 3" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Serene glow"</div>
+          </figcaption>
+        </figure>
+        <figure class="item medium" data-audio="">
+          <img src="images/saree4.jpg" alt="Saree photo 4" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Soft sparkle"</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Row 2: center -->
+    <div class="row center" data-group="center" data-audio="audio/mathu2.mp3">
+      <figure class="item medium right" data-audio="">
+        <img src="images/saree5.jpg" alt="Saree photo 5" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Natural charm"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/saree6.jpg" alt="Saree photo 6" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Golden glow"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 3: split-groups repeat -->
+    <div class="row split-groups" data-group="left" data-audio="audio/song3.mp3">
+      <div class="group left-group">
+        <figure class="item medium" data-audio="">
+          <img src="images/saree7.jpg" alt="Saree photo 7" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Pure elegance"</div>
+          </figcaption>
+        </figure>
+        <figure class="item medium">
+          <img src="images/saree8.jpg" alt="Saree photo 8" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Warm aura"</div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="group right-group">
+        <figure class="item medium">
+          <img src="images/saree9.jpg" alt="Saree photo 9" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Timeless charm"</div>
+            </figcaption>
+        </figure>
+        <figure class="item medium" data-audio="">
+          <img src="images/saree10.jpg" alt="Saree photo 10" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Quiet beauty"</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Row 4: single large -->
+    <div class="row center" data-group="center" data-audio="audio/eyes.mp3">
+      <figure class="item large" data-audio="">
+        <img src="images/eyes1.jpg" alt="Eyes photo" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Dreamy eyes"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 5: split (left) -->
+    <div class="row split" data-group="left" data-audio="">
+      <figure class="item medium" data-audio="">
+        <img src="images/herfav1.jpg" alt="Her favorite 1" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Pure warmth"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="audio/smile.mp3">
+        <img src="images/herfav2.jpg" alt="Her favorite 2" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Natural elegance"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 6: Bhutan series -->
+    <div class="row center" data-group="center" data-audio="audio/beauty1.mp3">
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan1.jpg" alt="Bhutan 1" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Cute presence"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan2.jpg" alt="Bhutan 2" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Sunshine vibe"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan3.jpg" alt="Bhutan 3" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Radiant smile"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan4.jpg" alt="Bhutan 4" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Charming bloom"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan5.jpg" alt="Bhutan 5" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Beautifully you"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan6.jpg" alt="Bhutan 6" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Sparkling grace"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/bhutan7.jpg" alt="Bhutan 7" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Pretty aura"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 7: cute series -->
+    <div class="row center" data-group="center" data-audio="audio/song1.mp3">
+      <figure class="item medium" data-audio="">
+        <img src="images/cute1.jpg" alt="Cute 1" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Dream-gentle charm"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/cute2.jpg" alt="Cute 2" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Soft delight"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium" data-audio="">
+        <img src="images/cute3.jpg" alt="Cute 3" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Delicate cuteness"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 8: single large (doctor) -->
+    <div class="row center" data-group="center" data-audio="audio/beauty2.mp3">
+      <figure class="item large">
+        <img src="images/doctor.jpg" alt="Doctor themed photo" loading="lazy" />
+        <figcaption>
+          <div class="caption-title"></div>
+          <div class="caption-title">"Quiet glow"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 9: stylish split-groups -->
+    <div class="row split-groups" data-group="left" data-audio="audio/song4.mp3">
+      <div class="group left-group">
+        <figure class="item medium" data-audio="">
+          <img src="images/stylish1.jpg" alt="Stylish 1" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Sweet magic"</div>
+          </figcaption>
+        </figure>
+        <figure class="item medium" data-audio="">
+          <img src="images/stylish2.jpg" alt="Stylish 2" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Sweetly charming"</div>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="group right-group">
+        <figure class="item medium" data-audio="">
+          <img src="images/stylish3.jpg" alt="Stylish 3" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Pearl-soft beauty"</div>
+          </figcaption>
+        </figure>
+        <figure class="item medium" data-audio="">
+          <img src="images/stylish4.jpg" alt="Stylish 4" loading="lazy">
+          <figcaption>
+            <div class="caption-title">"Heaven-soft beauty"</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <!-- Row 10: two medium side-by-side -->
+    <div class="row center" data-group="center" data-audio="audio/song6.mp3">
+      <figure class="item medium left" data-audio="">
+        <img src="images/stylish5.jpg" alt="Stylish 5" loading="lazy" />
+        <figcaption>
+          <div class="caption-title">"Elegant hush"</div>
+        </figcaption>
+      </figure>
+      <figure class="item medium right" data-audio="">
+        <img src="images/stylish6.jpg" alt="Stylish 6" loading="lazy" />
+        <figcaption><div class="caption-title">"Soft daylight"</div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- Row 11: four smalls -->
+    <div class="row center" data-group="center" data-audio="audio/song5.mp3">
+      <figure class="item small" data-audio="">
+        <img src="images/traditional2.jpg" alt="Traditional 2" loading="lazy" />
+      </figure>
+      <figure class="item small" data-audio="">
+        <img src="images/traditional3.jpg" alt="Traditional 3" loading="lazy" />
+      </figure>
+      <figure class="item small" data-audio="">
+        <img src="images/traditional4.jpg" alt="Traditional 4" loading="lazy" />
+      </figure>
+      <figure class="item small" data-audio="">
+        <img src="images/traditional5.jpg" alt="Traditional 5" loading="lazy" />
+      </figure>
+    </div>
+
+    <div style="text-align: center; margin-top: 20px;">
+    <p style="font-size: 20px; margin-bottom: 12px; color: #7A1F3D; font-weight: 600;">
+        Did you think the surprise ended here? Go on… there’s more waiting for you.
+    </p>
+
+    <!-- Next button -->
+    <div class="button-container">
+      <a href="honeycomb.html" class="button" aria-label="Next">
+        <span>Next</span>
+        <svg viewBox="0 0 46 40" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="41,20 21,2 21,38"></polygon>
+          <polygon points="26,20 6,2 6,38"></polygon>
+          <polygon points="11,20 1,10 1,30"></polygon>
+        </svg>
+      </a>
+    </div>
+
+    <!-- IMAGE POPUP -->
+    <div id="imgPopup" class="popup" role="dialog" aria-modal="true" aria-hidden="true">
+      <span id="popupClose" aria-label="Close">&times;</span>
+      <img id="popupImg" alt="Expanded photo" />
+    </div>
+
+    <!-- ✉️ Floating Love Letter -->
+    <div id="love-letter">
+      <div class="envelope-icon" role="button" aria-expanded="false">✉️</div>
+      <div class="letter-popup" aria-hidden="true">
+        <div class="popup-letter-content">
+          <h2>My Little Letter For You ❤️</h2>
+          <p>
+            I don’t say this enough, but you are genuinely one of the kindest souls I’ve ever met.
+            You don’t even realise it, but you make people’s lives brighter, calmer, and kinder just by being yourself.
+            You carry a glow that isn’t seen with eyes… it’s felt with the heart.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="compliment-area"></div>
+
+  </main>
+
+  <script>
+    // GLOBAL AUDIO
+    let globalAudio = new Audio();
+    let currentAudioSrc = null;
+
+    function playAudio(src) {
+      if (!src) return;
+      if (currentAudioSrc === src) return;
+      globalAudio.pause();
+      globalAudio = new Audio(src);
+      globalAudio.play();
+      currentAudioSrc = src;
+    }
+
+    // CLICK IMAGE → POPUP + AUDIO
+    document.querySelectorAll(".item").forEach((item) => {
+      item.addEventListener("click", () => {
+        const img = item.querySelector("img");
+        if (!img) return;
+        document.getElementById("popupImg").src = img.src;
+        document.getElementById("imgPopup").style.display = "flex";
+        document.getElementById("imgPopup").setAttribute("aria-hidden", "false");
+
+        // Audio: row-level first
+        const row = item.closest(".row");
+        const rowAudio = row ? row.getAttribute("data-audio") : null;
+        const imgAudio = item.getAttribute("data-audio");
+        const audioToPlay = (imgAudio && imgAudio.length) ? imgAudio : rowAudio;
+        playAudio(audioToPlay);
+      });
+    });
+
+    // POPUP CLOSE
+    document.getElementById("popupClose").onclick = () => {
+      document.getElementById("imgPopup").style.display = "none";
+      document.getElementById("imgPopup").setAttribute("aria-hidden", "true");
+      globalAudio.pause();
+    };
+    document.getElementById("imgPopup").onclick = (e) => {
+      if (e.target.id === "imgPopup") {
+        document.getElementById("imgPopup").style.display = "none";
+        document.getElementById("imgPopup").setAttribute("aria-hidden", "true");
+        globalAudio.pause();
+      }
+    };
+
+    // COMPLIMENT BUBBLES
+    const compliments = [
+      "You’re effortlessly beautiful ❤️",
+      "You're naturally gorgeous ❣️",
+      "You're breathtakingly cute 💗",
+      "You have heart of gold ✨",
+      "I'm so lucky to know you 💕",
+      "You light up every room 🌸",
+      "You make everything feel magical ✨",
+      "You have a beautiful soul 💝"
+    ];
+    function createCompliment() {
+      const area = document.getElementById("compliment-area");
+      const bubble = document.createElement("div");
+      bubble.className = "compliment";
+      bubble.innerText = compliments[Math.floor(Math.random() * compliments.length)];
+      bubble.style.left = Math.random() * 90 + "%";
+      area.appendChild(bubble);
+      setTimeout(() => { bubble.remove(); }, 4000);
+    }
+    setInterval(createCompliment, 3000);
+
+    // LETTER POPUP
+    const lovePopup = document.querySelector(".letter-popup");
+    const envelope = document.querySelector(".envelope-icon");
+    envelope.addEventListener("click", () => {
+      const shown = lovePopup.classList.toggle("show");
+      envelope.setAttribute("aria-expanded", shown ? "true" : "false");
+      lovePopup.style.display = shown ? "flex" : "none";
+      lovePopup.setAttribute("aria-hidden", shown ? "false" : "true");
+    });
+
+
+    // ------------------------------
+// ARROW KEY NAVIGATION
+// ------------------------------
+let currentIndex = -1;
+let currentGroupItems = [];
+
+// When popup opens, store group items
+document.querySelectorAll(".item").forEach((item, index) => {
+  item.addEventListener("click", () => {
+    const row = item.closest(".row");
+
+    // All images inside the SAME ROW
+    currentGroupItems = Array.from(row.querySelectorAll(".item"));
+
+    // Set current active index
+    currentIndex = currentGroupItems.indexOf(item);
+  });
+});
+
+// Listen for arrow keys
+document.addEventListener("keydown", (e) => {
+  const popup = document.getElementById("imgPopup");
+  if (popup.style.display !== "flex") return; // only work if popup is open
+
+  // NEXT →
+  if (e.key === "ArrowRight") {
+    currentIndex = (currentIndex + 1) % currentGroupItems.length;
+  }
+
+  // PREVIOUS ←
+  if (e.key === "ArrowLeft") {
+    currentIndex = (currentIndex - 1 + currentGroupItems.length) % currentGroupItems.length;
+  }
+
+  // Update popup image
+  const newItem = currentGroupItems[currentIndex];
+  const newImg = newItem.querySelector("img").src;
+  document.getElementById("popupImg").src = newImg;
+
+  // Update audio
+  const row = newItem.closest(".row");
+  const rowAudio = row ? row.getAttribute("data-audio") : null;
+  const imgAudio = newItem.getAttribute("data-audio");
+  const audioToPlay = imgAudio ? imgAudio : rowAudio;
+
+  playAudio(audioToPlay);
+});
+
+
+
+  </script>
+
+</body>
+</html>
